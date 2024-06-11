@@ -1,0 +1,73 @@
+.hero{
+    background-color: 
+    #F5F5F5;
+  margin-top: 20px;
+    &__collection{
+        padding:  20px;
+        display: flex;
+        justify-content: space-between;
+              .hero__item{
+            font-size: 22px;
+            font-weight: 500;
+    transition: 1s;
+    &:hover{
+        color: darkcyan;
+    }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+@media (
+    max-width:1195px) {
+    .hero{
+        .one{
+         display: none;   
+        }
+    }
+}
+
+
+
+
+@media (
+    max-width:1095px) {
+    .hero{
+        .two{
+         display: none;   
+        }
+    }
+}
+
+
+
+@media (
+    max-width:960px) {
+    .hero{
+        .tree{
+         display: none;   
+        }
+    }
+}
+
+
+
+
+@media (
+    max-width:550px) {
+    .hero{
+        
+        .for{
+         display: none;   
+        }
+        .five{
+            margin: auto;
+        }
+    }
+}

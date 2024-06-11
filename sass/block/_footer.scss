@@ -1,0 +1,60 @@
+.footer{
+    margin-top: -22px;
+    background-color:rgb(246, 240, 234) ;
+    height: auto;
+    padding:  50px 0;
+    &__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card__text{
+        font-size: 20px;
+        font-weight: 500;
+        &:hover{
+            color: darkcyan;
+        }
+    }
+    .card__item{
+        margin-top: 20px;
+    }
+    .fa-brands{
+        margin-top: 30px;
+        font-size: 35px;
+        margin: 0 5px;
+        transition: .5s;
+        &:hover{
+            color: darkcyan;
+        }
+    }
+    .footer__box{
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 14px;
+        font-weight: 200;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media ( max-width:440px){
+    .footer{
+        &__wrapper{
+            flex-direction: column;
+        }
+    }
+    .card__box{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .logo{
+        margin: 15px 0;
+    }
+}

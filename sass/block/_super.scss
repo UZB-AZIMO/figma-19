@@ -1,0 +1,124 @@
+.super{
+    margin-top: 50px;
+
+    .super__wrapper{
+       display: flex;
+gap: 50px;       
+    }
+}
+.hero__text{
+    margin: 50px 0;
+}
+.super__bag{
+    width: 100%;
+    display: flex;
+}
+.card__title{
+    font-size: 35px;
+    width: 100%;
+    font-weight: 600;
+}
+
+.body{ 
+    margin: 10px 0;
+    gap: 20px;
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.fa-star{
+    font-size: 25px;
+    color: gold;
+}
+.card__img{
+    width: 100%;
+}
+.super__card{
+    width:  calc( 50% - 10px );
+    overflow: hidden;
+}
+.super__bag{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.card__text{
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: 400;
+}
+.card__pramli{
+    font-size: 30px;
+    font-weight: 500;
+
+    margin: 20px 0;
+}
+.card__item{
+    font-size: 18px;
+    font-weight: 500;
+}
+.card__btn{
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    transition: .9s;
+    &:hover{
+        background-color: darkcyan;
+        color: black;
+    }
+}
+
+
+
+
+@media ( max-width:1200px){
+    .super{
+        &__wrapper{
+            flex-direction: column;
+        }
+    }
+
+    .super__card{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    
+
+}
+
+
+
+
+@media ( max-width:450px){
+    .super{
+
+    }
+    .card__title{
+        font-size: 28px;
+
+    }
+.card__btn{
+    font-size: 18px;
+    padding: 10px 20px;
+}
+.card__item{
+    font-size: 14px;
+}
+}
+
+
+
+@media ( max-width:340px){
+    .super{
+
+    }
+    .super__bag{
+        display: none;
+    }
+}
